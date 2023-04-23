@@ -21,7 +21,8 @@ public extension Xn {
 // MARK: - Xn.Debug
 
 public extension Xn {
-    /// If the module is built with debug configuration, `debugPrint`s the `value` together with callsite information (file and line) and returns `value`. In release configuration it just returns `value` (and hopefully is optmimized away entirely).
+    /// If the module is built with debug configuration, `debugPrint`s the `value` together with callsite information (file and line) and returns `value`.
+    /// In release configuration it just returns `value` (and hopefully is optmimized away entirely).
     @inline(__always) static func dbg<T>(_ value: T, file: StaticString = #file, line: Int = #line) -> T {
         #if DEBUG
         debugPrint("\(file):\(line)", value)
