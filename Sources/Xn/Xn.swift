@@ -29,4 +29,3 @@ public extension Xn {
         return value
     }
 }
-
