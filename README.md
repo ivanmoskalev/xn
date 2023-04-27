@@ -16,7 +16,7 @@ let value: Int? = 42
 let nonOptional = try Xn.unwrap(value) // nonOptional is of type Int
 ```
 
-## Debug
+### Debug
 Print value of the variable with callsite information and return it:
 
 ```swift
