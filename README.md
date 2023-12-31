@@ -2,7 +2,7 @@
 [![Swift](https://img.shields.io/badge/swift-5.0-orange.svg)](https://swift.org)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Useful functions for Swift. No dependencies on Foundation or other iOS/macOS frameworks. 
+Useful functions for Swift and Apple Platforms.
 
 As of now, this has not been stabilized yet, however it is in use in some projects that are live on the App Store. Regardless, use at your own risk!
 
