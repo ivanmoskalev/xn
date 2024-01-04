@@ -8,14 +8,24 @@ let package = Package(
     products: [
         .library(
             name: "Xn",
-            targets: ["Xn"])
+            targets: [
+                "Xn", 
+                "XnFoundation",
+            ]
+        )
     ],
     targets: [
         .target(
             name: "Xn",
-            dependencies: []),
+            dependencies: []
+        ),
+        .target(
+            name: "XnFoundation",
+            dependencies: ["Xn"]
+        ),
         .testTarget(
             name: "XnTests",
-            dependencies: ["Xn"])
+            dependencies: ["Xn"]
+        )
     ]
 )
