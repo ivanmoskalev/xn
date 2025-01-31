@@ -1,24 +1,31 @@
 # xn
-[![Swift](https://img.shields.io/badge/swift-5.0-orange.svg)](https://swift.org)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Useful functions for Swift and Apple Platform SDKs. Basically a jumble of reusable code.
+xn is a (slowly) growing collection of Swift libraries for macOS and iOS, released into the public domain.
 
-As of now, this has not been stabilized yet, however it is in use in some projects that are live on the App Store. Regardless, use at your own risk!
+## Philosophy
 
-## Available Functions
+Knowledge should be released into public domain as much as reasonably possible. These libraries are my way of sharing what I know with fellow engineers.
 
-### Optionals
-Unwrap an optional value or throw an error:
+## Libraries
 
-```swift
-let value: Int? = 42
-let nonOptional = try Xn.unwrap(value) // nonOptional is of type Int
-```
-
-### Debug
-Print value of the variable with callsite information and return it:
+### [XnSwift](https://github.com/ivanmoskalev/xn-swift)
+Swift language extensions and algorithms that are too general to warrant their own packages.
 
 ```swift
-let result = Xn.dbg(42) // Prints "MyModule/MyFile.swift:23 42" in debug builds
+.package(url: "https://github.com/ivanmoskalev/xn-swift.git", from: "1.0.0")
 ```
+
+### [XnLevenshtein](https://github.com/ivanmoskalev/xn-levenshtein)
+Generic Levenshtein edit distance implementation with **O(n × m)** time and **O(m)** space complexity.
+
+```swift
+.package(url: "https://github.com/ivanmoskalev/xn-levenshtein.git", from: "1.0.0")
+```
+
+## Contributing
+
+Please note that contributions are accepted if they align with the vision for the library. Please open an issue in the respective repository first to discuss proposed changes. 
+
+## License
+
+This project is released into the public domain under [The Unlicense](https://unlicense.org/). Do whatever you want with it however you want.
