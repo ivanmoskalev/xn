@@ -8,19 +8,24 @@ Knowledge should be released into public domain as much as reasonably possible. 
 
 ## Libraries
 
-### [XnSwift](https://github.com/ivanmoskalev/xn-swift)
+### [xn-swift](https://github.com/ivanmoskalev/xn-swift)
 Swift language extensions and algorithms that are too general to warrant their own packages.
 
 ```swift
 .package(url: "https://github.com/ivanmoskalev/xn-swift.git", from: "1.0.0")
 ```
 
-### [XnLevenshtein](https://github.com/ivanmoskalev/xn-levenshtein)
+### [xn-levenshtein](https://github.com/ivanmoskalev/xn-levenshtein)
 Generic Levenshtein edit distance implementation with **O(n × m)** time and **O(m)** space complexity.
 
 ```swift
 .package(url: "https://github.com/ivanmoskalev/xn-levenshtein.git", from: "1.0.0")
 ```
+
+## Under Construction
+
+### [xn-kv](https://github.com/ivanmoskalev/xn-kv)
+Key-value store based on LMDB.
 
 ## Contributing
 
