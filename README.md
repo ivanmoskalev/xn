@@ -1,6 +1,6 @@
-# xn
+# dear
 
-xn is a (slowly) growing collection of Swift libraries for macOS and iOS, released into the public domain.
+dear is a (slowly) growing collection of Swift libraries for macOS and iOS, released into the public domain.
 
 ## Philosophy
 
@@ -8,23 +8,23 @@ Knowledge should be released into public domain as much as reasonably possible. 
 
 ## Libraries
 
-### [xn-swift](https://github.com/ivanmoskalev/xn-swift)
+### [dear-swift](https://github.com/ivanmoskalev/dear-swift)
 Swift language extensions and algorithms that are too general to warrant their own packages.
 
 ```swift
-.package(url: "https://github.com/ivanmoskalev/xn-swift.git", from: "1.0.0")
+.package(url: "https://github.com/ivanmoskalev/dear-swift.git", from: "1.0.0")
 ```
 
-### [xn-levenshtein](https://github.com/ivanmoskalev/xn-levenshtein)
+### [dear-levenshtein](https://github.com/ivanmoskalev/dear-levenshtein)
 Generic Levenshtein edit distance implementation with **O(n × m)** time and **O(m)** space complexity.
 
 ```swift
-.package(url: "https://github.com/ivanmoskalev/xn-levenshtein.git", from: "1.0.0")
+.package(url: "https://github.com/ivanmoskalev/dear-levenshtein.git", from: "1.0.0")
 ```
 
 ## Under Construction
 
-### [xn-kv](https://github.com/ivanmoskalev/xn-kv)
+### [dear-kv](https://github.com/ivanmoskalev/dear-kv)
 Key-value store based on LMDB.
 
 ## Contributing
