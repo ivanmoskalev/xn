@@ -4,7 +4,7 @@ dear is a (slowly) growing collection of Swift libraries for macOS and iOS, rele
 
 ## Philosophy
 
-Knowledge should be released into public domain as much as reasonably possible. These libraries are my way of sharing what I know with fellow engineers.
+Knowledge should be released into public domain as much as reasonably possible. These libraries are my way of sharing what I learned with fellow engineers.
 
 ## Libraries
 
