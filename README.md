@@ -22,6 +22,14 @@ Generic Levenshtein edit distance implementation with **O(n × m)** time and **O
 .package(url: "https://github.com/ivanmoskalev/dear-levenshtein.git", from: "1.0.0")
 ```
 
+### [dear-sais](https://github.com/ivanmoskalev/dear-sais)
+
+Swift implementation of the SA-IS algorithm for building suffix arrays in **O(n)** (as compared to more usual **O(n × log(n))**.
+
+```swift
+.package(url: "https://github.com/ivanmoskalev/dear-sais.git", from: "1.0.0")
+```
+
 ## Under Construction
 
 ### [dear-kv](https://github.com/ivanmoskalev/dear-kv)
